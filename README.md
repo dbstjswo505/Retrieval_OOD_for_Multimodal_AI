@@ -1,12 +1,6 @@
 # Video Momment Retrieval for IID and OOD for Multimodal AI
 
 
-### Charades-STA (ID) and (OOD)
-
-| Method  | Rank1@0.3 | Rank1@0.5 | Rank1@0.7 | Rank5@0.3 | Rank5@0.5 | Rank5@0.7 |
-| :-----: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
-|   TVMR (ID)  |   66.40   |   49.24   |   22.39   |   96.99   |   84.71   |   52.37   |
-| TVMR (OOD)    |   65.99   |   49.05   |   22.61   |   96.99   |   84.71   |   52.37   |
 
 ## Requiments
 
@@ -34,7 +28,7 @@ data
 │   ├── test.json
 ```
 
-[Chrades_STA]
+## [Chrades_STA ID and OOD]
 ### Training
 ```bash
 python train.py
